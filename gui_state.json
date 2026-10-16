@@ -1,0 +1,22 @@
+{
+  "theme": "Dark",
+  "font_size": 10,
+  "show_hidden_files": false,
+  "preview_visible": false,
+  "inspector_visible": true,
+  "console_visible": true,
+  "last_root": "C:\\Users\\girid",
+  "last_selected_manifests": [],
+  "output_mode": "Single TXT Dump",
+  "window_width": 2560,
+  "window_height": 1369,
+  "splitter_main": [
+    510,
+    1414,
+    628
+  ],
+  "splitter_center": [
+    632,
+    0
+  ]
+}

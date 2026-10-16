@@ -1,0 +1,7 @@
+ACTION,TARGET,PATTERN
+INCLUDE,PATH,E:\GARUDA\git\garuda-controls\sentinel\specs
+INCLUDE,PATH,E:\GARUDA\git\garuda-controls\sentinel\nodes
+EXCLUDE,PATH,E:\GARUDA\git\garuda-controls\sentinel\DSL
+INCLUDE,PATH,E:\GARUDA\git\garuda-controls\sentinel\components
+EXCLUDE,PATH,E:\GARUDA\git\garuda-controls\sentinel\nodes\eq\.gitignore
+EXCLUDE,PATH,E:\GARUDA\git\garuda-controls\sentinel\aa.txt

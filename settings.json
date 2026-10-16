@@ -1,0 +1,24 @@
+{
+    "schema_version": 1,
+    "output_directory": "output",
+    "max_file_size": 5242880,
+    "include_extensions": [],
+    "include_filenames": [],
+    "exclude_extensions": [],
+    "exclude_filenames": [],
+    "allow_extensionless": false,
+    "skipped_directories": [
+        ".git",
+        "node_modules",
+        "__pycache__",
+        ".venv",
+        "venv",
+        "build",
+        "dist",
+        ".cache"
+    ],
+    "binary_detection": true,
+    "verbose": false,
+    "approximate_token_count": true,
+    "multi_select_history": []
+}
