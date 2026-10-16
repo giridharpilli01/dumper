@@ -35,7 +35,7 @@ from typing import Callable, Dict, List, Optional, Set, Tuple, Any
 # VERSION & BUILD METADATA
 # ============================================================================
 
-__version__: str = "0.1.0"
+__version__: str = "0.1.1"
 __build__: str = "2026.10.16.1"
 
 SCHEMA_VERSION: int = 1

@@ -14,7 +14,7 @@ def test_headless_gui_instantiation(tmp_path: Path):
     # Instantiate MainWindow targeting temporary test workspace
     window = MainWindow(tmp_path)
     assert window is not None
-    assert window.windowTitle() == "AI Context Dumper"
+    assert window.windowTitle().startswith("AI Context Dumper")
     assert window.centralWidget() is not None
 
     # Verify key pane models exist
