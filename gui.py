@@ -183,7 +183,6 @@ class ThemeEngine:
         return DARK_THEME
 
     @staticmethod
-    @staticmethod
     def generate_qss(c: ThemeColors, font_size: int = 10) -> str:
         # ====================================================================
         # CORNER RADIUS TOKENS
@@ -385,11 +384,11 @@ class ThemeEngine:
         }}
         """
 
-    @classmethod
-    def apply_theme(cls, app: QApplication, theme_name: str, font_size: int = 10) -> None:
-        colors = cls.get_colors(theme_name)
+   @staticmethod
+    def apply_theme(app: QApplication, theme_name: str, font_size: int = 10) -> None:
+        colors = ThemeEngine.get_colors(theme_name)
         app.setStyle("Fusion")
-        app.setStyleSheet(cls.generate_qss(colors, font_size))
+        app.setStyleSheet(ThemeEngine.generate_qss(colors, font_size))
 
 # ============================================================================
 # 3. GUI STATE & PERSISTENCE

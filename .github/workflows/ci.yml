@@ -52,4 +52,5 @@ jobs:
         if: runner.os == 'Windows'
         shell: pwsh
         run: |
-          $null = Get-Content launch.ps1 | Out-String | [scriptblock]::Create()
+          $content = Get-Content launch.ps1 -Raw
+          $null = [scriptblock]::Create($content)
