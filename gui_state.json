@@ -1,0 +1,33 @@
+{
+  "theme": "Dark",
+  "font_size": 10,
+  "active_nav_index": 0,
+  "show_hidden_files": false,
+  "preview_visible": false,
+  "inspector_visible": true,
+  "console_visible": true,
+  "console_expanded": false,
+  "last_root": "E:\\GARUDA\\git\\garuda-controls\\sentinel",
+  "last_selected_manifests": [],
+  "output_mode": "Single TXT Dump",
+  "window_width": 1725,
+  "window_height": 954,
+  "splitter_main": [
+    330,
+    912,
+    405
+  ],
+  "splitter_center": [
+    827,
+    0,
+    0
+  ],
+  "splitter_col2": [
+    501,
+    361
+  ],
+  "splitter_col4": [
+    505,
+    361
+  ]
+}

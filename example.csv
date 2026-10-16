@@ -1,0 +1,17 @@
+# AI Context Dumper - Manifest Specification & Syntax Guide
+# Lines beginning with '#' and blank lines are ignored.
+#
+# Rule Precedence:
+#   1. Most specific matching rule wins.
+#   2. Equal specificity -> INCLUDE wins over EXCLUDE.
+#   3. Explicit CSV inclusion overrides ordinary global selection settings.
+#   4. Explicit CSV inclusion does NOT bypass hard safety constraints (5 MB limit, symlinks).
+#
+ACTION,TARGET,PATTERN
+INCLUDE,PATH,./src
+EXCLUDE,PATH,./src/generated
+INCLUDE,PATH,./src/generated/bootstrap.py
+EXCLUDE,FILENAME,*_test.py
+EXCLUDE,FILENAME,temp_*
+EXCLUDE,EXTENSION,.log
+EXCLUDE,EXTENSION,.bak
