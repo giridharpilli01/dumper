@@ -384,7 +384,7 @@ class ThemeEngine:
         }}
         """
 
-   @staticmethod
+    @staticmethod
     def apply_theme(app: QApplication, theme_name: str, font_size: int = 10) -> None:
         colors = ThemeEngine.get_colors(theme_name)
         app.setStyle("Fusion")
